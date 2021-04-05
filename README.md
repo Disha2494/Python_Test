@@ -1,4 +1,4 @@
-challenge Description
+#challenge Description
 
 Write a Flask / FastAPI Web API that simulates the behavior of an audio file server while using a MongoDB / SQL database.
 
@@ -37,17 +37,4 @@ API structuture is define in documentation folder. it is postman structure
 
 Test challenge summary is define in documentation folder
 
-##How to start
 
-    Clone the repo from github git clone https://github.com/sahasrara62/filed_audio_file_server.git
-
-    in terminal go to folder , cd filed_audio_file_server
-
-    setup flask app
-
-     a. export FLASK_APP=main.py
-     b. export FLASK_ENV='developement'
-
-    run flask server : flask run
-
-    check if server is running at browser localhost:5000/ you will get , server is running
