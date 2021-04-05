@@ -61,6 +61,9 @@ pipenv shell
 ```
 python manage.py runserver
 ```
-
+### To test the testcases run:
+```
+python manage.py test
+```
 
 
