@@ -1,6 +1,6 @@
 # Problem Description
 
-Write a Flask / FastAPI Web API that simulates the behavior of an audio file server while using a MongoDB / SQL database.
+Write a Flask / FastAPI/ Django Web API Web API that simulates the behavior of an audio file server while using a MongoDB / SQL database.
 
 Requirements: You have one of three audio files which structures are defined below Audio file type can be one of the following:
 
