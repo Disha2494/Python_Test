@@ -32,7 +32,35 @@ Requirements: You have one of three audio files which structures are defined bel
     Narrator - (mandatory, string, cannot be larger than 100 characters)
     Duration in number of seconds – (mandatory, integer, positive)
     Uploaded time – (mandatory, Datetime, cannot be in the past)
+    
+# How to get started:
+## To run the project following dependencies should be installed.
+```
+1: pip install pipenv
+```
+```
+2: pipenv install django
+```
+```
+3: pipenv install djangorestframework django-cors-headers
+```
+```
+4: pipenv install django-mysql
+```
+### To activate the Virtual environment use:
+```
+pipenv shell
+```
+### For db migrations, use the following commands:
+```
+1. python manage.py makemigrations
+2. python manage.py migrate
+```
 
+### To start the backend server use command:
+```
+python manage.py runserver
+```
 
 
 
